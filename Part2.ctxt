@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Part2
+comment0.text=\r\nsee\ README.TXT\r\nN5c\r\n\ @author\ Dimgba\ Martha\ Otisi\ \r\n\ @2020,January\r\n\ @martha_samuel_\ \ \r\n\r\n
+comment1.params=dnaOri
+comment1.target=java.util.ArrayList\ findGenes(java.lang.String)
+comment2.params=DNA\ start
+comment2.target=int\ findStopCodon(java.lang.String,\ int)
+comment2.text=\r\n\ Pass\ one\ start\ codon\ position\ to\ the\ method\r\n\ Find\ out\ the\ first\ stop\ codon\ after\ that\ start\ codon,\ then\ return\ it's\ position\r\n\ Algorithm\:\ \r\n\ 1\ once\ the\ start\ codon\ is\ located\r\n\ 2\ divide\ all\ bases\ following\ the\ start\ codon\ into\ 3-base\ codons\r\n\ 3\ check\ each\ codon\ to\ see\ if\ any\ codon\ is\ equal\ to\ "TAG",\ "TGA",\ or\ "TAA"\r\n\ 4\ if\ we\ get\ any\ hit,\ then\ that\ first\ hit\ is\ the\ stop\ codon\r\n\ 5\ return\ the\ index\ position\ of\ that\ stop\ codon\r\n\ 6\ if\ no\ stop\ codon\ exist\ in\ this\ "frame",\ then\ return\ -1\ as\ the\ stop\ codon\ position\r\n\ \r\n\ example\:\ GAATGACTGATAGATATGCTTGTA\r\n\ 1\ locate\ the\ start\ codon\ ATG\ at\ index\ 2\r\n\ 2\ divide\ and\ formate\ the\ frame\:\ GA-ATG-ACT-GAT-AGA-TAT-GCT-TGA-A\r\n\ 3\ the\ TGA\ in\ the\ end\ is\ the\ stop\ codon\r\n\ 4\ return\ the\ index\ of\ TGA\:\ 20\r\n\ 5\ the\ gene\:\ from\ 2\ to\ 20+3;\r\n\ \r\n\ @param\ DNA\r\n\ @param\ start\r\n\ @return\r\n
+comment3.params=
+comment3.target=java.lang.String\ readStrFromFile()
+comment3.text=\r\n\ Read\ DNA\ string\ from\ a\ file;\r\n\ @return\r\n
+comment4.params=gene
+comment4.target=float\ calCGRatio(java.lang.String)
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+comment5.text=\r\n\ the\ main()\ \r\n\ @param\ args\r\n
+numComments=6
